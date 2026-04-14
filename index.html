@@ -1,115 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW Experience</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./image/logo.png" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMW</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-    <header >
-        <div class="nav">
-            <div>
-                <img class="logo" src="image/logo.png" width="50px">
-            </div>
-            <div class="opcion">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                    fill="#e3e3e3">
-                    <path
-                        d="M120-120v-560h160v-160h400v320h160v400H520v-160h-80v160H120Zm80-80h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 320h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h80v-80h-80v80Zm0-160h80v-80h-80v80Z" />
-                </svg>
-                <a href="#">Sobre Nosotros</a>
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                    fill="#e3e3e3">
-                    <path
-                        d="M160-120q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-254q-35-12-57.5-43T40-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 70T200-607v87h240v-87q-35-12-57.5-43T360-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 70T520-607v87h200q17 0 28.5-11.5T760-560v-47q-35-12-57.5-43T680-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 70T840-607v47q0 50-35 85t-85 35H520v87q35 12 57.5 43t22.5 70q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-87H200v87q35 12 57.5 43t22.5 70q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T200-240q0-17-11.5-28.5T160-280q-17 0-28.5 11.5T120-240q0 17 11.5 28.5T160-200Zm0-480q17 0 28.5-11.5T200-720q0-17-11.5-28.5T160-760q-17 0-28.5 11.5T120-720q0 17 11.5 28.5T160-680Zm320 480q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200Zm0-480q17 0 28.5-11.5T520-720q0-17-11.5-28.5T480-760q-17 0-28.5 11.5T440-720q0 17 11.5 28.5T480-680Zm320 0q17 0 28.5-11.5T840-720q0-17-11.5-28.5T800-760q-17 0-28.5 11.5T760-720q0 17 11.5 28.5T800-680ZM160-240Zm0-480Zm320 480Zm0-480Zm320 0Z" />
-                </svg>
-                <a href="#">Tecnologia</a>
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                    fill="#e3e3e3">
-                    <path
-                        d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z" />
-                </svg>
-                <a href="#">Cerrar sesión</a>
-            </div>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img class="logo" src="image/logo.png" />
         </div>
+        <div class="opcion">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3">
+            <path
+              d="M120-120v-560h160v-160h400v320h160v400H520v-160h-80v160H120Zm80-80h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 320h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h80v-80h-80v80Zm0-160h80v-80h-80v80Z" />
+          </svg>
+          <a href="#">Sobre Nosotros</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3">
+            <path
+              d="M160-120q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-254q-35-12-57.5-43T40-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 70T200-607v87h240v-87q-35-12-57.5-43T360-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 70T520-607v87h200q17 0 28.5-11.5T760-560v-47q-35-12-57.5-43T680-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 70T840-607v47q0 50-35 85t-85 35H520v87q35 12 57.5 43t22.5 70q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-87H200v87q35 12 57.5 43t22.5 70q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T200-240q0-17-11.5-28.5T160-280q-17 0-28.5 11.5T120-240q0 17 11.5 28.5T160-200Zm0-480q17 0 28.5-11.5T200-720q0-17-11.5-28.5T160-760q-17 0-28.5 11.5T120-720q0 17 11.5 28.5T160-680Zm320 480q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200Zm0-480q17 0 28.5-11.5T520-720q0-17-11.5-28.5T480-760q-17 0-28.5 11.5T440-720q0 17 11.5 28.5T480-680Zm320 0q17 0 28.5-11.5T840-720q0-17-11.5-28.5T800-760q-17 0-28.5 11.5T760-720q0 17 11.5 28.5T800-680ZM160-240Zm0-480Zm320 480Zm0-480Zm320 0Z" />
+          </svg>
+          <a href="#">Tecnologia</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3">
+            <path
+              d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z" />
+          </svg>
+          <a href="#">Cerrar sesión</a>
+        </div>
+      </nav>
+      
     </header>
 
-
     <nav class="bienvenida">
-        <div>
-
-            <h1>El futuro se siente desde el volante.</h1>
-            <p>
-                Bienvenido al universo BMW, un espacio donde la ingeniería de precisión y la pasión por el asfalto
-                convergen para transformar cada trayecto en una experiencia sensorial inigualable. Aquí, no solo
-                diseñamos vehículos, sino que forjamos máquinas destinadas a quienes entienden que conducir es un acto
-                de libertad y que la verdadera meta no es el destino, sino la emoción que se vive en cada curva. Desde
-                la adrenalina pura de nuestra división M hasta la sofisticación sostenible de la gama eléctrica i, cada
-                modelo es un tributo a la innovación y al diseño audaz, pensado exclusivamente para que seas tú quien
-                tome el control total del camino y convierta lo ordinario en un despliegue de potencia, lujo y placer
-                absoluto al volante.
-            </p>
-
-        </div>
+      <div>
+        <h1>Descubre el poder de BMW</h1>
+        <p>
+          Bienvenido al universo BMW, un espacio donde la ingeniería de
+          precisión y la pasión por el asfalto convergen para transformar cada
+          trayecto en una experiencia sensorial inigualable. Aquí, no solo
+          diseñamos vehículos, sino que forjamos máquinas destinadas a quienes
+          entienden que conducir es un acto de libertad y que la verdadera meta
+          no es el destino, sino la emoción que se vive en cada curva. Desde la
+          adrenalina pura de nuestra división M hasta la sofisticación
+          sostenible de la gama eléctrica i, cada modelo es un tributo a la
+          innovación y al diseño audaz, pensado exclusivamente para que seas tú
+          quien tome el control total del camino y convierta lo ordinario en un
+          despliegue de potencia, lujo y placer absoluto al volante.
+        </p>
+      </div>
     </nav>
 
-
-
-    
     <main>
-    <aside class="container">
-
+      <aside class="container">
         <div class="info">
-            <h2 class="titulo">BMW</h2>
-            <p>
-                Explora la Red Global de Innovación de BMW a través de nuestro directorio especializado. En este
-                espacio, te
-                acercamos a las sedes corporativas y centros operativos más emblemáticos de la marca, desde la
-                vanguardia
-                tecnológica en Múnich hasta los puntos clave de administración en Latinoamérica. Descubre ubicaciones
-                estratégicas diseñadas para la eficiencia, el liderazgo automotriz y la excelencia en el servicio,
-                facilitando tu conexión directa con el motor que impulsa el futuro de la movilidad.
-            </p>
-            <br>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.8335680364835!2d-74.071981!3d41.028897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2e5d2651a0053%3A0x3e961dfe43bd4a41!2sBMW%20of%20North%20America%2C%20LLC!5e0!3m2!1ses-419!2sco!4v1775659460708!5m2!1ses-419!2sco"
-                width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <h2 class="titulo">Enfoque en Innovación</h2>
+          <h2 class="titulo">UBICACION</h2>
+          <p>
+            Bienvenido al universo BMW, un espacio donde la ingeniería de
+            precisión y la pasión por el asfalto convergen para transformar cada
+            trayecto en una experiencia sensorial inigualable. Aquí, no solo
+            diseñamos vehículos, sino que forjamos máquinas destinadas a quienes
+            entienden que conducir es un acto de libertad y que la verdadera
+            meta no es el destino, sino la emoción que se vive en cada curva.
+            Cada línea, cada componente y cada sistema ha sido concebido con un
+            propósito claro: ofrecer una conexión auténtica entre el conductor y
+            la carretera. Desde el rugido controlado de un motor perfectamente
+            calibrado hasta la respuesta milimétrica de la dirección, todo en
+            BMW está diseñado para despertar sensaciones que van más allá de lo
+            convencional, elevando la conducción a una forma de arte.
+          </p>
 
-            <p>
-                Pulsaciones al límite. Ingeniería de precisión. Estás ante la nueva generación de BMW M, donde la pista
-                se encuentra con la calle. Más potencia, mayor control y una estética agresiva que no pide permiso. No
-                solo es velocidad, es la forma en que el asfalto se rinde ante ti. BMW M: Diseñado para emocionar.
-            </p>
-            <br>
-            <iframe width="350" height="300" src="https://www.youtube.com/embed/CuFH08QXNI8?si=TJsfILE_8N1eFL_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5062222191746!2d-74.8416513!3d11.000594399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d292a0bf7be5%3A0x9d61c7ed86c267a8!2sBMW%20Motorrad%20Barranquilla%20-%20Automunich!5e0!3m2!1ses!2sco!4v1776120034070!5m2!1ses!2sco"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <h2 class="titulo">Tecnología</h2>
+          <p>
+            Pulsaciones al límite. Ingeniería de precisión. Estás ante la nueva
+            generación de BMW M, donde la pista se encuentra con la calle en una
+            fusión perfecta entre rendimiento extremo y control absoluto. Cada
+            detalle ha sido diseñado para desafiar los límites, ofreciendo una
+            experiencia de conducción que no solo se siente, sino que se vive
+            intensamente en cada instante. Más potencia, mayor control y una
+            estética agresiva que no pide permiso, sino que impone presencia.
+            Desde su aerodinámica optimizada hasta su motor de alto desempeño,
+            cada componente trabaja en perfecta sincronía para entregarte una
+            respuesta inmediata, precisa y contundente. Aquí, la tecnología no
+            es un complemento, es el núcleo de una máquina creada para dominar
+            el asfalto. No solo es velocidad, es la forma en que el asfalto se
+            rinde ante ti.
+          </p>
+
+          <iframe
+            src="https://www.youtube.com/embed/CuFH08QXNI8"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </aside>
+
+      <section class="images">
+        <div class="image1">
+          <img src="image/6.jpg" alt="" />
         </div>
 
-    </aside>
+        <div class="images2">
+          <img src="image/2.jpg" alt="" />
+          <img src="image/3.jpg" alt="" />
+        </div>
 
-        <figure class="images">
-
-            <div>
-                <img src="image/6.jpg" width="120%" height= "auto">
-            </div>
-            <div class="images2">
-                <img src="image/3.jpg" id="image-2" width="50%" height="auto">
-                            <br>
-                <img src="image/4.jpg" id="image-2" width="50%">
-            </div>
-        </figure>
-        <figure></figure>
-        <figure></figure>
-
-  
+        <div class="image1">
+          <img src="image/7.jpg" alt="" />
+        </div>
+        <div class="images2">
+          <img src="image/4.jpg" alt="" />
+          <img src="image/5.jpg" alt="" />
+        </div>
+      </section>
     </main>
 
+    <section class="bmw">
+      <h2>Vehículos BMW</h2>
+      <p>Descubre la excelencia en cada detalle de nuestros vehículos.</p>
 
+      <div class="contenedor">
+        <div>
+          <h3>Potencia</h3>
+          <p>Excelente rendimiento y potencia en cada kilómetro.</p>
+        </div>
 
-</body>
+        <div>
+          <h3>Diseño</h3>
+          <p>Un estilo que combina la elegancia con la funcionalidad.</p>
+        </div>
 
-</html>|    
+        <div>
+          <h3>Tecnología</h3>
+          <p>Avances innovadores que mejoran la experiencia de conducción.</p>
+        </div>
+
+        <div>
+          <h3>Seguridad</h3>
+          <p>Medidas de seguridad avanzadas para proteger a los ocupantes.</p>
+        </div>
+
+        <div>
+          <h3>Confort</h3>
+          <p>Comodidad y estilo en cada viaje.</p>
+        </div>
+
+        <div>
+          <h3>Velocidad</h3>
+          <p>Desempeño excepcional en cualquier condición de conducción.</p>
+        </div>
+
+        <div>
+          <h3>Innovación</h3>
+          <p>Liderazgo en tecnología y diseño para una experiencia única.</p>
+        </div>
+
+        <div>
+          <h3>Eléctricos</h3>
+          <p>Vehículos eléctricos con tecnología de vanguardia.</p>
+        </div>
+
+        <div>
+          <h3>Serie M</h3>
+          <p>La mejor combinación de rendimiento y confort.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-contenido">
+        <div class="footer-izq">
+          <img class="footer-logo" src="image/logo.png" alt="BMW Logo"  />
+          <div class="redes">
+            <a href=""><img src="image/twitter.png" alt="Twitter" /></a>
+            <a href=""><img src="image/instagram.png" alt="Instagram" /></a>
+            <a href=""><img src="image/whatsapp.png" alt="WhatsApp" /></a>
+          </div>
+        </div>
+        <div>
+          <p> @ 2026 BMW Experience</p>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
